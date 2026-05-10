@@ -1,0 +1,2 @@
+video/IMG_8102.mov filter=lfs diff=lfs merge=lfs -text
+video/IMG_8086.mov filter=lfs diff=lfs merge=lfs -text
