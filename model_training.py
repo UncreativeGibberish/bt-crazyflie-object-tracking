@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 if __name__ == "__main__":
     model = YOLO("yolo26n")  
-
+    #model = RTDETR("rtdetr-l.pt") # For training RTDETR models
     results = model.train(
         data="config.yaml",          
         epochs=150,
